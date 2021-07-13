@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Camilo Rodríguez</title>
+  </head>
+
+  <body>
+    <!--NavBar-->
+    <nav class="nav navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand link" href="#">Camilo Rodríguez</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#informacion"
+                >Información</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#habilidades"
+                >Habilidades</a
+              >
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#intereses"
+                >Experiencia</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header
+      class="masthead text-white text-center"
+      style="background-color: grey"
+    >
+      <div class="inicio">
+        <img class="circular-square" src="assets/img/icono.jpg" alt="..." />
+
+        <h1 class="masthead-heading text-uppercase mb-0" style="padding: 1rem">
+          Camilo Rodríguez
+        </h1>
+
+        <p class="masthead-subheading font-weight-light mb-0">
+          Desarrollador de Software <br />
+          (Software Developer)
+        </p>
+      </div>
+    </header>
+
+    <!--Sections -->
+    <!--Informacion-->
+    <section class="info" id="informacion">
+      <div class="container">
+        <h2
+          class="text-center text-uppercase text-secondary mb-0"
+          style="padding: 1rem"
+        >
+          Información
+        </h2>
+
+        <div class="row justify-content-center">
+          <!--Acerca de mi-->
+          <div class="col-md-6 col-lg-4 mb-5" style="padding: 1rem">
+            <div
+              class="info-item mx-auto"
+              data-bs-toggle="modal"
+              data-bs-target="#info"
+            >
+              <div
+                class="
+                  info-item-caption
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  h-100
+                  w-100
+                "
+              >
+                <div class="info-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/profile.png" alt="..." />
+            </div>
+          </div>
+          <!-- Estudio-->
+          <div class="col-md-6 col-lg-4 mb-5" style="padding: 1rem">
+            <div
+              class="info-item mx-auto"
+              data-bs-toggle="modal"
+              data-bs-target="#estudio"
+            >
+              <div
+                class="
+                  info-item-caption
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  h-100
+                  w-100
+                "
+              >
+                <div class="info-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="assets/img/study.png" alt="..." />
+            </div>
+          </div>
+          <!--Experiencia-->
+          <div class="col-md-6 col-lg-4 mb-5" style="padding: 1rem">
+            <div
+              class="info-item mx-auto"
+              data-bs-toggle="modal"
+              data-bs-target="#exp"
+            >
+              <div
+                class="
+                  info-item-caption
+                  d-flex
+                  align-items-center
+                  justify-content-center
+                  h-100
+                  w-100
+                "
+              >
+                <div class="info-item-caption-content text-center text-white">
+                  <i class="fas fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img
+                class="img-fluid"
+                src="assets/img/tiempo-de-trabajo.png"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Habilidades-->
+    <section style="background-color: gray" id="habilidades">
+      <div class="container">
+        <h2
+          class="text-center text-uppercase text-light mb-0"
+          style="padding: 1rem"
+        >
+          Habilidades
+        </h2>
+        <div style="text-align: center; color: white; font-size: large">
+          Lenguajes de programación y herramientas
+        </div>
+        <ul
+          class="list-inline dev-icons"
+          style="color: white; font-size: 1000%"
+        >
+          <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+          <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+          <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+          <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+          <li class="list-inline-item"><i class="fab fa-python"></i></li>
+          <li class="list-inline-item"><i class="fab fa-java"></i></li>
+          <li class="list-inline-item"><i class="fab fa-git"></i></li>
+          <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+          <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Intereses -->
+    <section id="intereses">
+      <div class="container">
+        <h2
+          class="text-center text-uppercase text-secondary mb-0"
+          style="padding: 1rem"
+        >
+          Intereses
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-lg-4 mb-" style="padding: 1rem">
+            <h3
+              class="text-center text-uppercase text-secondary mb-0"
+              style="padding: 1rem"
+            >
+              Videojuegos
+            </h3>
+            <div>
+              <img
+                class="img-fluid"
+                src="assets/img/controller.png"
+                alt="..."
+              />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5" style="padding: 1rem">
+            <h3
+              class="text-center text-uppercase text-secondary mb-0"
+              style="padding: 1rem"
+            >
+              Rubik y Puzzles
+            </h3>
+            <div>
+              <img class="img-fluid" src="assets/img/rubik.png" alt="..." />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5" style="padding: 1rem">
+            <h3
+              class="text-center text-uppercase text-secondary mb-0"
+              style="padding: 1rem"
+            >
+              Literatura (Fantasia y Sci-fi)
+            </h3>
+            <div>
+              <img class="img-fluid" src="assets/img/book.png" alt="..." />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5" style="padding: 1rem">
+            <h3
+              class="text-center text-uppercase text-secondary mb-0"
+              style="padding: 1rem"
+            >
+              Tecnología
+            </h3>
+            <div>
+              <img class="img-fluid" src="assets/img/biotecnologia.png" alt="..." />
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-5" style="padding: 1rem">
+            <h3
+              class="text-center text-uppercase text-secondary mb-0"
+              style="padding: 1rem"
+            >
+              Programación
+            </h3>
+            <div>
+              <img class="img-fluid" src="assets/img/programming.png" alt="..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <!-- Footer Location-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Contacto</h4>
+            <p class="lead mb-0">
+              camilo.rod2412@gmail.com
+              <br />
+             +57 321 913 5037
+            </p>
+          </div>
+          <!-- Footer Social Icons-->
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <h4 class="text-uppercase mb-4">Redes sociales</h4>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+              ><i class="fab fa-fw fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+              ><i class="fab fa-fw fa-twitter"></i
+            ></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="#!"
+              ><i class="fab fa-fw fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/Camilo-2412"
+            ><i class="fab fa-fw fa-github"></i
+          ></a>
+          </div>
+          <!-- Footer About Text-->
+          <div class="col-lg-4">
+            <h4 class="text-uppercase mb-4">CV Realizada como práctica para el Bootcamp de Fedesoft <br> V 0.1</h4>
+            
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modals -->
+    <!--Acerda de mi-->
+    <div
+      class="modal fade"
+      id="info"
+      tabindex="-1"
+      aria-labelledby="info"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h2>Información sobre mi</h2>
+                  <p class="mb-4">
+                    Profesional en ingeniera de sistemas, con gran interés en la
+                    programación y la analítica de datos, entusiasta por temas
+                    actuales de tecnología, guiado por valores, principios
+                    éticos y morales propios del desarrollo profesional.
+                    Caracterizado por la puntualidad, responsabilidad y fijación
+                    por la investigación, la lectura, guiado por el interés
+                    respectivamente a obtener un crecimiento personal y
+                    profesional.
+                  </p>
+                  <button
+                    class="btn btn-secondary"
+                    href="#!"
+                    data-bs-dismiss="modal"
+                  >
+                    <i class="fas fa-times fa-fw"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Estudios -->
+    <div
+      class="modal fade"
+      id="estudio"
+      tabindex="-1"
+      aria-labelledby="estudio"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h2>Educación</h2>
+
+                  <p class="mb-4">
+                    <strong>Universidad Piloto de Colombia</strong> <br />
+                    2015-08 2021-03 <br />
+                    4.0 Actual promedio acumulado.
+                    <br />
+                    <strong>Instituto San Bernardo de la Salle</strong><br />
+                    2004-02 - 2014-11<br />
+                    Grado de Bachiller en 2014 Graduado con honores.
+                    <br />
+                    <strong>Actualmente </strong> <br />
+                    <strong>Bootcamp de Fedesoft Mean Stack </strong> <br />
+                    2021-06 2021-09
+                  </p>
+                  <button
+                    class="btn btn-secondary"
+                    href="#!"
+                    data-bs-dismiss="modal"
+                  >
+                    <i class="fas fa-times fa-fw"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Experiencia  -->
+    <div
+      class="modal fade"
+      id="exp"
+      tabindex="-1"
+      aria-labelledby="exp"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button
+              class="btn-close"
+              type="button"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center pb-5">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <h2>Experiencia</h2>
+
+                  <p class="mb-4">
+                    <strong>Banco de Bogotá</strong> <br />
+                    Enero 2020 -Julio 2020 <br />
+                    Practicante Empresarial <br />
+                    <br />
+                    Desarrollo sus prácticas profesionales en el área de
+                    analítica de datos de talento humano en el banco de Bogotá,
+                    donde conoció aspectos claves del talento humano y como
+                    integrarlos con herramientas de las tecnologías de la
+                    información. <br />
+                    <br />
+
+                    Sus principales tareas fueron: <br />
+                    <br />
+                     Automatización de procesos con Microsoft <br />
+                    automate ( Flow)<br />
+                     Análisis de datos<br />
+                     Manejo de bases de datos<br />
+                     Construcción de tableros de contro<br />
+                  </p>
+                  <button
+                    class="btn btn-secondary"
+                    href="#!"
+                    data-bs-dismiss="modal"
+                  >
+                    <i class="fas fa-times fa-fw"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
